@@ -1,6 +1,6 @@
 package br.edu.atitus.currencyservice.dtos;
 
-public record CurrencyDto(
+public record CurrencyDTO(
         String sourceCurrency,
         String targetCurrency,
         Double conversionRate,

@@ -3,6 +3,7 @@ package br.edu.atitus.currencyservice.entities;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "tb_currency")
 public class CurrencyEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
