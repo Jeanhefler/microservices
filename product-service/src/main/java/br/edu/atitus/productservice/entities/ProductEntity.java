@@ -3,6 +3,7 @@ package br.edu.atitus.productservice.entities;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "tb_product")
 public class ProductEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -11,7 +12,7 @@ public class ProductEntity {
     private String brand;
     private String model;
     private String currency;
-    private double price;
+    private Double price;
     private Integer stock;
 
     public Long getId() {

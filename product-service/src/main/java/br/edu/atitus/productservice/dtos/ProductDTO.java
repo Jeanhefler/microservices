@@ -1,6 +1,6 @@
 package br.edu.atitus.productservice.dtos;
 
-public record ProductDto(
+public record ProductDTO(
         Long id,
         String description,
         String brand,
